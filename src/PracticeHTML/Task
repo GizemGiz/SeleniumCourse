@@ -1,0 +1,10 @@
+<input type="text" class="inputtext _58mg _5dba _2ph-"
+data-type="text" name="firstname" value="" aria-required="true"
+placeholder="First name" aria-label="First name" id="u_3_b_cW" tabindex="0">
+
+
+CSS Locator with ID ->                 #u_3_b_cW
+CSS Locator with class ->            .inputtext _58mg _5dba _2ph-
+CSS Locator with attribute ->       input[placeholder=‘First name’]
+CSS Locator with attribute ->       input[name=‘firstname’]
+CSS Locator with attribute ->       input[id=‘u_3_b_cW’]
