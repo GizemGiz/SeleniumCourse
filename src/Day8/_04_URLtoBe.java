@@ -23,7 +23,7 @@ public class _04_URLtoBe {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
 
-        WebElement testNGTutorials = driver.findElement(By.cssSelector("a[href='/testing-tutorials']"));
+        WebElement testNGTutorials = driver.findElement(By.cssSelector("a[href='/testng-tutorials']"));
         testNGTutorials.click();
 
         wait.until(ExpectedConditions.urlToBe("https://www.seleniumeasy.com/testng-tutorials"));
