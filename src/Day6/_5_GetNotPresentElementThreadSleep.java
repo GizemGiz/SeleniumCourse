@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class _5_GetNotPresentElementThreadSleep {
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\gizem\\Selenium Tool\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/Library/Selenium/chromedriver/chromedriver");
 
         WebDriver driver = new ChromeDriver();
 
@@ -18,8 +18,7 @@ public class _5_GetNotPresentElementThreadSleep {
 
         startButton.click();
 
-        Thread.sleep(7000);
-
+        Thread.sleep(10000);
 
         WebElement textElement = driver.findElement(By.cssSelector("#finish>h4"));
         String text = textElement.getText();
