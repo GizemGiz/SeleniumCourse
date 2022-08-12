@@ -1,4 +1,4 @@
-package Day9;
+package Day9.XPath;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -20,7 +20,6 @@ public class _01_XPathSimpleSelector {
 
         driver.get("https://www.facebook.com/");
 
-
         WebElement createAccountButton = driver.findElement(By.xpath("//a[@data-testid='open-registration-form-button']"));
         createAccountButton.click();
 
@@ -31,5 +30,6 @@ public class _01_XPathSimpleSelector {
         genderRadioButton.click();
 
         driver.quit();
+
     }
 }
