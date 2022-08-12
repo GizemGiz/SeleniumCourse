@@ -1,4 +1,4 @@
-package Day10.ActionsClassMethods;
+package Day10;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
